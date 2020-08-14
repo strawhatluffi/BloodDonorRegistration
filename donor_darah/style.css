@@ -1,0 +1,108 @@
+body{
+	background: #F1F1F1;
+}
+.navbar-custom{
+	background: #4CAF50;
+}
+.brand-custom{
+	color: white;
+	margin-left: 20px;
+}
+.brand-custom:hover{
+	color: white;
+}
+.logout{
+	color: white;
+	margin-right: 50px;
+}
+.container-custom{
+	width: 100%;
+	margin-top: 50px;
+}
+.custom-breadcrumb{
+	background: white;
+	box-shadow: 0px 0px 3px 0px #cccccc;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.konten{
+	background: white;
+	box-shadow: 0px 0px 3px 0px #cccccc;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 20px;
+}
+.panel-konten{	
+	float: left;
+	width: 78%;
+	padding: 10px;
+}
+.panel-menu{
+	float: right;
+	width: 20%;
+}
+.footer{
+	background: #4CAF50;
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	margin-top: 10px;
+}
+.biodata{
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background: #ffffff;
+	box-shadow: 0px 0px 3px 0px #cccccc;
+	padding:5px;
+	text-align: center;
+	height: 100px;
+}
+.id{
+	position: relative;
+	top: 30%;
+	font-size: 10px;
+	color: blue;
+}
+.nama{
+	position: relative;
+	top: 30%;
+	font-size: 14px;
+	font-weight: bold;
+}
+.menu-area{
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background: #ffffff;
+	box-shadow: 0px 0px 3px 0px #cccccc;
+	margin-top: 20px;
+}
+.judul-menu{
+	background: #4CAF50;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+}
+.menu-item{
+	padding: 10px;
+	border-bottom: 1px solid #cccccc;
+	color: black;
+	font-weight: bold;
+	font-size: 12px;
+}
+.menu-item:hover{
+	background: #9bf442;
+}
+a:hover{
+	text-decoration: none;
+}
+.tombol-kanan{
+	float: right;
+	margin-right: 15px;
+}
+#berhasil{
+	color: blue;
+}
+#gagal{
+	color: red;
+}

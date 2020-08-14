@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cccccc"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Nama"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1"
+                android:layout_weight="1" />
+            <EditText
+                android:enabled="false"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/nama"
+                android:layout_weight="2" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="No HP"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_weight="1" />
+            <EditText
+                android:enabled="false"
+                android:inputType="phone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/noHp"
+                android:layout_weight="2" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:layout_weight="1" />
+            <EditText
+                android:enabled="false"
+                android:inputType="textEmailAddress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/email"
+                android:layout_weight="2" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Password"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:layout_weight="1" />
+            <EditText
+                android:enabled="false"
+                android:inputType="textPassword"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/password"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.65"
+                android:text="Tgl Lahir" />
+
+            <EditText
+                android:id="@+id/tglLahir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:hint="dd/mm/YYYY" />
+
+            <Button
+                android:id="@+id/btnTglLahir"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.35"
+                android:elevation="7dp"
+                android:text="Pilih Tanggal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Pekerjaan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7"
+                android:layout_weight="1" />
+            <EditText
+                android:enabled="false"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/pekerjaan"
+                android:layout_weight="2" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Berat Badan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:layout_weight="1" />
+            <EditText
+                android:enabled="false"
+                android:inputType="number"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/bb"
+                android:layout_weight="2" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Golongan Darah"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:layout_weight="1" />
+            <RadioGroup
+                android:orientation="horizontal"
+                android:layout_weight="2"
+                android:id="@+id/groupGoldar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:enabled="false"
+                    android:checked="true"
+                    android:text="A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/A" />
+                <RadioButton
+                    android:enabled="false"
+                    android:text="B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/B" />
+                <RadioButton
+                    android:enabled="false"
+                    android:text="AB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/AB" />
+                <RadioButton
+                    android:enabled="false"
+                    android:text="O"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/O" />
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Jenis Kelamin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:layout_weight="1" />
+            <RadioGroup
+                android:orientation="horizontal"
+                android:layout_weight="2"
+                android:id="@+id/groupJk"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:enabled="false"
+                    android:checked="true"
+                    android:text="Pria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/L" />
+                <RadioButton
+                    android:enabled="false"
+                    android:text="Wanita"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/P" />
+
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                style="@style/deffaultButton"
+                android:layout_weight="1"
+                android:onClick="kembali"
+                android:text="kembali"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                style="@style/deffaultButton"
+                android:layout_weight="1"
+                android:onClick="editBiodata"
+                android:text="Edit Biodata"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                style="@style/primaryButton"
+                android:layout_weight="1"
+                android:onClick="selanjutnya"
+                android:text="selanjutnya"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

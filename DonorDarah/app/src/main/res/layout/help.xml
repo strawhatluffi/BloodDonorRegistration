@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BANTUAN
+\n\n
+1.  Aplikasi ini dibuat untuk pengguna Android dalam pendaftaran donor darah secara onnline
+\n\n
+2.  Pilih Menu Daftar Donor Darah untuk pendaftaran donor darah.
+\n\n
+3.  Pilih Menu Biodata untuk melihat biodata dan edit biodata.
+\n\n
+4.  Pilih Menu Kebutuhan Darah untuk melihat kebutuhan darah yang tersedia
+\n\n
+5.  Saat mendaftar, pastikan biodata anda benar dan mengisi kuisioner secara lengkap." />
+
+</LinearLayout>
+</ScrollView>
